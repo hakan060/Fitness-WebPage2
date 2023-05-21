@@ -1,0 +1,77 @@
+
+.box-container
+  {
+    width: 100%;
+    max-width: 1640px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: wrap;
+    /*lex-wrap: wrap; değeri ile esnek kutu içerisindeki öğelerin boyutlarını küçültmeden
+    sabit tutabilmek için öğeleri bir alt satıra ya da yan satıra geçirecektir. 
+    Yukarıdaki resimde öğeler flex-wrap: wrap özelliği olan bir kap 
+    içerisinde öğeler tek bir satıra sığdırılmaya çalışmadan alt satıra kaydırılır.  */
+  }
+
+  .box{
+    width: 300px;
+    padding: 15px;
+    min-height: 450px;
+  }
+  .box1{
+    color: #f1f1f1;
+    background-color: #061529;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .box2{
+    color: #f1f1f1;
+    background-color: #576c88;
+  }
+  .box3{
+    color: #f1f1f1;
+    background-color:  #061529;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .content{
+    padding: 10px;
+  }
+  h3{
+    color: #a3bbda;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+p{
+  color: #f1f1f1;
+}
+.btn{
+  margin: 40px  0;
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  background-color: #FFF;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 700;
+
+}
+.btn1{
+  color: #576c88;
+}
+.btn2{
+  color: #a3bbda;
+}
+.btn3{
+  color: #576c88;
+}
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid #FFF;
+  color: #FFF;
+  transition: 0.4s;
+}
+
+
+ 
